@@ -1,0 +1,283 @@
+{
+  "app" : {
+    "build" : "16",
+    "bundleIdentifier" : "com.linfanbin.zujian.watchapp",
+    "version" : "1.0.14"
+  },
+  "createdAt" : "2026-09-01T10:00:00Z",
+  "device" : {
+    "logicalHeight" : 248,
+    "logicalWidth" : 208,
+    "model" : "Apple Watch Series 11 (46mm)",
+    "scale" : 2,
+    "systemVersion" : "26.2"
+  },
+  "duration" : 24,
+  "events" : [
+    {
+      "animationDuration" : 0,
+      "id" : "00000000-0000-0000-0000-000000000001",
+      "kind" : "lifecycle",
+      "name" : "store.resting",
+      "snapshot" : {
+        "canReturnToPreviousSet" : true,
+        "completedSetCount" : 3,
+        "currentHeartRate" : 128,
+        "currentSetNumber" : 4,
+        "defaultRestDuration" : 90,
+        "elapsedTime" : 754,
+        "history" : [
+        ],
+        "isRestClockRunning" : false,
+        "isStarting" : false,
+        "isWorkoutClockRunning" : false,
+        "overlay" : {
+          "kind" : "none"
+        },
+        "phase" : "resting",
+        "restRemaining" : 42,
+        "screen" : "workout",
+        "scrollPositions" : {
+        },
+        "startProgressText" : "正在准备训练…"
+      },
+      "startsAnimation" : false,
+      "timestamp" : 0
+    },
+    {
+      "animationDuration" : 0,
+      "id" : "00000000-0000-0000-0000-000000000002",
+      "kind" : "stateChanged",
+      "name" : "store.active",
+      "snapshot" : {
+        "canReturnToPreviousSet" : false,
+        "completedSetCount" : 2,
+        "currentHeartRate" : 132,
+        "currentSetNumber" : 3,
+        "defaultRestDuration" : 90,
+        "elapsedTime" : 733,
+        "history" : [
+        ],
+        "isRestClockRunning" : false,
+        "isStarting" : false,
+        "isWorkoutClockRunning" : false,
+        "overlay" : {
+          "kind" : "none"
+        },
+        "phase" : "setActive",
+        "restRemaining" : 0,
+        "screen" : "workout",
+        "scrollPositions" : {
+        },
+        "startProgressText" : "正在准备训练…"
+      },
+      "startsAnimation" : false,
+      "timestamp" : 4
+    },
+    {
+      "animationDuration" : 0,
+      "id" : "00000000-0000-0000-0000-000000000003",
+      "kind" : "stateChanged",
+      "name" : "store.finished",
+      "snapshot" : {
+        "canReturnToPreviousSet" : false,
+        "completedSetCount" : 4,
+        "currentSetNumber" : 5,
+        "defaultRestDuration" : 90,
+        "elapsedTime" : 1472,
+        "history" : [
+        ],
+        "isRestClockRunning" : false,
+        "isStarting" : false,
+        "isWorkoutClockRunning" : false,
+        "overlay" : {
+          "kind" : "none"
+        },
+        "phase" : "finished",
+        "restRemaining" : 0,
+        "screen" : "finished",
+        "scrollPositions" : {
+        },
+        "startProgressText" : "正在准备训练…",
+        "summary" : {
+          "duration" : 1472,
+          "id" : "10000000-0000-0000-0000-000000000001",
+          "sets" : [
+            {
+              "averageHeartRate" : 118,
+              "id" : "20000000-0000-0000-0000-000000000001",
+              "maximumHeartRate" : 136,
+              "number" : 1
+            },
+            {
+              "averageHeartRate" : 123,
+              "id" : "20000000-0000-0000-0000-000000000002",
+              "maximumHeartRate" : 143,
+              "number" : 2
+            },
+            {
+              "averageHeartRate" : 128,
+              "id" : "20000000-0000-0000-0000-000000000003",
+              "maximumHeartRate" : 151,
+              "number" : 3
+            },
+            {
+              "averageHeartRate" : 126,
+              "id" : "20000000-0000-0000-0000-000000000004",
+              "maximumHeartRate" : 148,
+              "number" : 4
+            }
+          ],
+          "startDate" : "2026-08-31T10:00:00Z"
+        }
+      },
+      "startsAnimation" : false,
+      "timestamp" : 8
+    },
+    {
+      "animationDuration" : 0,
+      "id" : "00000000-0000-0000-0000-000000000004",
+      "kind" : "screenChanged",
+      "name" : "store.history",
+      "snapshot" : {
+        "canReturnToPreviousSet" : false,
+        "completedSetCount" : 0,
+        "currentSetNumber" : 1,
+        "defaultRestDuration" : 90,
+        "elapsedTime" : 0,
+        "history" : [
+          {
+            "duration" : 1472,
+            "id" : "10000000-0000-0000-0000-000000000001",
+            "sets" : [
+              {
+                "averageHeartRate" : 118,
+                "id" : "20000000-0000-0000-0000-000000000001",
+                "maximumHeartRate" : 136,
+                "number" : 1
+              },
+              {
+                "averageHeartRate" : 123,
+                "id" : "20000000-0000-0000-0000-000000000002",
+                "maximumHeartRate" : 143,
+                "number" : 2
+              },
+              {
+                "averageHeartRate" : 128,
+                "id" : "20000000-0000-0000-0000-000000000003",
+                "maximumHeartRate" : 151,
+                "number" : 3
+              },
+              {
+                "averageHeartRate" : 126,
+                "id" : "20000000-0000-0000-0000-000000000004",
+                "maximumHeartRate" : 148,
+                "number" : 4
+              }
+            ],
+            "startDate" : "2026-08-31T10:00:00Z"
+          },
+          {
+            "duration" : 1098,
+            "id" : "10000000-0000-0000-0000-000000000002",
+            "sets" : [
+              {
+                "averageHeartRate" : 115,
+                "id" : "30000000-0000-0000-0000-000000000001",
+                "maximumHeartRate" : 132,
+                "number" : 1
+              },
+              {
+                "averageHeartRate" : 121,
+                "id" : "30000000-0000-0000-0000-000000000002",
+                "maximumHeartRate" : 140,
+                "number" : 2
+              },
+              {
+                "averageHeartRate" : 124,
+                "id" : "30000000-0000-0000-0000-000000000003",
+                "maximumHeartRate" : 144,
+                "number" : 3
+              }
+            ],
+            "startDate" : "2026-08-29T10:30:00Z"
+          }
+        ],
+        "isRestClockRunning" : false,
+        "isStarting" : false,
+        "isWorkoutClockRunning" : false,
+        "overlay" : {
+          "kind" : "none"
+        },
+        "phase" : "ready",
+        "restRemaining" : 0,
+        "screen" : "history",
+        "scrollPositions" : {
+        },
+        "startProgressText" : "正在准备训练…"
+      },
+      "startsAnimation" : false,
+      "timestamp" : 12
+    },
+    {
+      "animationDuration" : 0,
+      "id" : "00000000-0000-0000-0000-000000000005",
+      "kind" : "screenChanged",
+      "name" : "store.settings",
+      "snapshot" : {
+        "canReturnToPreviousSet" : false,
+        "completedSetCount" : 0,
+        "currentSetNumber" : 1,
+        "defaultRestDuration" : 90,
+        "elapsedTime" : 0,
+        "history" : [
+        ],
+        "isRestClockRunning" : false,
+        "isStarting" : false,
+        "isWorkoutClockRunning" : false,
+        "overlay" : {
+          "kind" : "none"
+        },
+        "phase" : "ready",
+        "restRemaining" : 0,
+        "screen" : "settings",
+        "scrollPositions" : {
+        },
+        "startProgressText" : "正在准备训练…"
+      },
+      "startsAnimation" : false,
+      "timestamp" : 16
+    },
+    {
+      "animationDuration" : 0,
+      "id" : "00000000-0000-0000-0000-000000000006",
+      "kind" : "screenChanged",
+      "name" : "store.ready",
+      "snapshot" : {
+        "canReturnToPreviousSet" : false,
+        "completedSetCount" : 0,
+        "currentSetNumber" : 1,
+        "defaultRestDuration" : 90,
+        "elapsedTime" : 0,
+        "history" : [
+        ],
+        "isRestClockRunning" : false,
+        "isStarting" : false,
+        "isWorkoutClockRunning" : false,
+        "overlay" : {
+          "kind" : "none"
+        },
+        "phase" : "ready",
+        "restRemaining" : 0,
+        "screen" : "ready",
+        "scrollPositions" : {
+        },
+        "startProgressText" : "正在准备训练…"
+      },
+      "startsAnimation" : false,
+      "timestamp" : 20
+    }
+  ],
+  "id" : "40000000-0000-0000-0000-000000000001",
+  "schemaVersion" : 1
+}

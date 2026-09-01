@@ -1,0 +1,1765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118367C80A9A7C6A3F45725E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87590CB5FF880484B959B622 /* Assets.xcassets */; };
+		1669C0B9FF33545ABDBCD642 /* Zujian.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7F7D05D5A78613F744F9554F /* Zujian.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1814CB9A306BEDBDA8B3411E /* NativeReplayRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AE856CE07B8802DFDE32E1 /* NativeReplayRootView.swift */; };
+		19EB799F0F3F83CFC6B0DDD6 /* record001_anonymized_motion.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F659080969D4CF82FCD86E5 /* record001_anonymized_motion.json */; };
+		1DDD2373BA920F573E142341 /* WatchRecordingTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F59DF00DAC9963E24BB0207 /* WatchRecordingTransfer.swift */; };
+		1ECB6CB2917AEDD8E1A9888D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A097490919DC250D2D6C9A34 /* PrivacyInfo.xcprivacy */; };
+		20A41964870973729473D6FB /* ReplayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC27C4AF8FE46D1D9AB7851 /* ReplayEngine.swift */; };
+		21C18772DF9A17D95CE25E53 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B9EE32E37F7839CDF45337 /* WorkoutView.swift */; };
+		25529317A4010730A86981D9 /* SetDetectionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C846201C57C3BC9858C16AF9 /* SetDetectionEngine.swift */; };
+		28EBA7B990C829613F979089 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF57D0A847CAB69E52C7BBAB /* HistoryView.swift */; };
+		3692590CC04257BD53243482 /* SetDetectionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2AB632E8EDF2DE4C86862A /* SetDetectionEngineTests.swift */; };
+		3AEF445B52C8C399FDDB7E3E /* StudioRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B931D4E91916FEF8148F8C /* StudioRootView.swift */; };
+		3DC5B2AEDEFE3425F819C1C8 /* ZujianApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED444705FEDA4E67622C18C /* ZujianApp.swift */; };
+		3E1B9E0D087561FBCA0666E6 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD116770BF31F72D0204408 /* HistoryStore.swift */; };
+		41941DAEF3D318EEF78DC105 /* WorkoutStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8141B0EBBE6C0114959C8991 /* WorkoutStateTests.swift */; };
+		46D2C26643139FEB505305BD /* HeartRateTrendScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69768C43D2B37E6A1AF58D0 /* HeartRateTrendScorerTests.swift */; };
+		48771EAE22A519AA56A3670F /* ReplayVideoRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608DCC4AEE636257C31144AB /* ReplayVideoRenderer.swift */; };
+		489938A235813BB7EC384F60 /* RecordingLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390C57625C49F5BCBF8B84C /* RecordingLibrary.swift */; };
+		53EA46AA50046B5FC1EA1376 /* ZujianWidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A613A4D59294825C7706 /* ZujianWidgetSnapshot.swift */; };
+		54D9EF928D74EAEA780432EB /* DetectionDiagnosticRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF07D8DFF3E42B691AF5CB7A /* DetectionDiagnosticRecorder.swift */; };
+		5A2AC215BF5108126DB9F5E6 /* RecordingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0BA990144DC3BE445D3F /* RecordingModels.swift */; };
+		5B108CE49984CDE5420E691F /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF673212ADD1DC0EF326AFD /* MotionManager.swift */; };
+		5DD7ED14CE5DBEA361E7AB98 /* ZujianWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 881ACAD6AFCDACBA8BF6E6B8 /* ZujianWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5E9C8817A21C8C593971E97A /* ReplayCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAFB8429DF2033F37E75EA0 /* ReplayCanvasView.swift */; };
+		64DC322BF17967A92B27D236 /* WorkoutStartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7890FE5B6E4CB8580D2DBD3F /* WorkoutStartUITests.swift */; };
+		6BC65BD7DF088BBE4536ECCB /* RecordingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AB0BA990144DC3BE445D3F /* RecordingModels.swift */; };
+		7C84E291616EC894E189618C /* WorkoutSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D17BCB90F4CEA068AA8E105 /* WorkoutSessionManager.swift */; };
+		8025D0EA108180990C252939 /* ZujianWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F827AFFF442CB3EB8DE3A0D /* ZujianWidgets.swift */; };
+		809FCE9D7A3D1A1C47323C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87590CB5FF880484B959B622 /* Assets.xcassets */; };
+		8262B652F984C50BBECE2B0D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BB59F1898E61CD83688893 /* RootView.swift */; };
+		82E00FD8B03E163C44CF4743 /* WorkoutModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E4385A02A9BD32EAF61047 /* WorkoutModels.swift */; };
+		834E5E429DCF2206ED25A83A /* ZujianStudioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2282DBF7E238C29C885049 /* ZujianStudioApp.swift */; };
+		9026E6AAEB6C7551BD3C190B /* RestTimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D531FD2551D8D2A4FBEA3 /* RestTimerManager.swift */; };
+		9715E608403479A2AFC7B736 /* ReplayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC27C4AF8FE46D1D9AB7851 /* ReplayEngine.swift */; };
+		9B1FE0D3B6C388C33F8D2035 /* AppRecordingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A096783D8D766414F233A /* AppRecordingController.swift */; };
+		9D88D71E68789AAFCBF86722 /* HeartRateTrendScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC127052E551ED2F60D86356 /* HeartRateTrendScorer.swift */; };
+		A067F35DC1DC07F86F338852 /* FinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E507A02160A765FAFB1E4313 /* FinishedView.swift */; };
+		ADC0FF6D4CD9473871B32EEB /* ReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC57A33385D96F2C8F6F5E7 /* ReadyView.swift */; };
+		B7BCD4D442279908FBF0CA81 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E72FEA9FD0F930EDCE2C38A /* SettingsView.swift */; };
+		C04D82097F45F4D3AE57F103 /* NativeReplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343CC713487A831B0AFACFD /* NativeReplayController.swift */; };
+		C67CEE3FC7BCF675D573AAB9 /* WidgetAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9392D26072FC75C08CB39661 /* WidgetAssets.xcassets */; };
+		CAE5C962971C2F0CA7E0FC44 /* RecordingViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E983CDB9F69DAD5A21B527 /* RecordingViewSupport.swift */; };
+		D2114D24070007B891124CC4 /* WorkoutCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FAB105C7DAA0A5822CE303 /* WorkoutCoordinator.swift */; };
+		DDD74EF5795BACCE402F8515 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CFF7E401FF5F8CC530C8E56 /* HapticManager.swift */; };
+		E02705F1E30356B85062C151 /* ReplayEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386120005EEA6AD83D2896C6 /* ReplayEngineTests.swift */; };
+		E17DFD30FD0ED9AA14FE81A9 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D2C20017B21D224D911577 /* SettingsManager.swift */; };
+		E7D2D63B0880F218BA3BA015 /* ZujianWidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E6A613A4D59294825C7706 /* ZujianWidgetSnapshot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F29925D61933BC30F684F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FEFC508B54F2115A6B5000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD31F99B3A711EC3AEAB1CD6;
+			remoteInfo = Zujian;
+		};
+		88893DFBB51C99356ED2BD20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FEFC508B54F2115A6B5000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CB63B78BAECEABE5FC06E79;
+			remoteInfo = ZujianStudio;
+		};
+		8E7C041A3A51153C2862F918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FEFC508B54F2115A6B5000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBCDC74AA39E4C1AEE7E62BA;
+			remoteInfo = ZujianWidgets;
+		};
+		D07AC8102B6672F1FC2F7DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FEFC508B54F2115A6B5000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD31F99B3A711EC3AEAB1CD6;
+			remoteInfo = Zujian;
+		};
+		FA841577B3589324DFA549F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31FEFC508B54F2115A6B5000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD31F99B3A711EC3AEAB1CD6;
+			remoteInfo = Zujian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		818CA6DC5D679FB4FD72584E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1669C0B9FF33545ABDBCD642 /* Zujian.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD36385BC2963660E23763AA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5DD7ED14CE5DBEA361E7AB98 /* ZujianWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1390C57625C49F5BCBF8B84C /* RecordingLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingLibrary.swift; sourceTree = "<group>"; };
+		1F659080969D4CF82FCD86E5 /* record001_anonymized_motion.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = record001_anonymized_motion.json; sourceTree = "<group>"; };
+		1F827AFFF442CB3EB8DE3A0D /* ZujianWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZujianWidgets.swift; sourceTree = "<group>"; };
+		2ED444705FEDA4E67622C18C /* ZujianApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZujianApp.swift; sourceTree = "<group>"; };
+		386120005EEA6AD83D2896C6 /* ReplayEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayEngineTests.swift; sourceTree = "<group>"; };
+		39B931D4E91916FEF8148F8C /* StudioRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioRootView.swift; sourceTree = "<group>"; };
+		3D17BCB90F4CEA068AA8E105 /* WorkoutSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionManager.swift; sourceTree = "<group>"; };
+		4E72FEA9FD0F930EDCE2C38A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		529D531FD2551D8D2A4FBEA3 /* RestTimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTimerManager.swift; sourceTree = "<group>"; };
+		608DCC4AEE636257C31144AB /* ReplayVideoRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayVideoRenderer.swift; sourceTree = "<group>"; };
+		60FAB105C7DAA0A5822CE303 /* WorkoutCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCoordinator.swift; sourceTree = "<group>"; };
+		65AB0BA990144DC3BE445D3F /* RecordingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingModels.swift; sourceTree = "<group>"; };
+		6787CFC9C887476410214A5F /* ZujianStudio.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZujianStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B9EE32E37F7839CDF45337 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		6D2282DBF7E238C29C885049 /* ZujianStudioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZujianStudioApp.swift; sourceTree = "<group>"; };
+		70E6A613A4D59294825C7706 /* ZujianWidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZujianWidgetSnapshot.swift; sourceTree = "<group>"; };
+		7890FE5B6E4CB8580D2DBD3F /* WorkoutStartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStartUITests.swift; sourceTree = "<group>"; };
+		7F7D05D5A78613F744F9554F /* Zujian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zujian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8141B0EBBE6C0114959C8991 /* WorkoutStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStateTests.swift; sourceTree = "<group>"; };
+		87590CB5FF880484B959B622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		881ACAD6AFCDACBA8BF6E6B8 /* ZujianWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZujianWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9343CC713487A831B0AFACFD /* NativeReplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeReplayController.swift; sourceTree = "<group>"; };
+		9392D26072FC75C08CB39661 /* WidgetAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WidgetAssets.xcassets; sourceTree = "<group>"; };
+		97D339E55EAA71788DF779F6 /* ZujianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZujianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CFF7E401FF5F8CC530C8E56 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		9F59DF00DAC9963E24BB0207 /* WatchRecordingTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchRecordingTransfer.swift; sourceTree = "<group>"; };
+		A097490919DC250D2D6C9A34 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A7E983CDB9F69DAD5A21B527 /* RecordingViewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingViewSupport.swift; sourceTree = "<group>"; };
+		AF07D8DFF3E42B691AF5CB7A /* DetectionDiagnosticRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionDiagnosticRecorder.swift; sourceTree = "<group>"; };
+		B8E4385A02A9BD32EAF61047 /* WorkoutModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModels.swift; sourceTree = "<group>"; };
+		B9AE856CE07B8802DFDE32E1 /* NativeReplayRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeReplayRootView.swift; sourceTree = "<group>"; };
+		BDD116770BF31F72D0204408 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		BEC57A33385D96F2C8F6F5E7 /* ReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyView.swift; sourceTree = "<group>"; };
+		C3BB59F1898E61CD83688893 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C59A096783D8D766414F233A /* AppRecordingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRecordingController.swift; sourceTree = "<group>"; };
+		C5D2C20017B21D224D911577 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		C846201C57C3BC9858C16AF9 /* SetDetectionEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDetectionEngine.swift; sourceTree = "<group>"; };
+		C8680AD583A3C05DA0955082 /* ZujianDistribution.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ZujianDistribution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC127052E551ED2F60D86356 /* HeartRateTrendScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateTrendScorer.swift; sourceTree = "<group>"; };
+		CD6696DEBF383F32A6AAFC36 /* ZujianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZujianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69768C43D2B37E6A1AF58D0 /* HeartRateTrendScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateTrendScorerTests.swift; sourceTree = "<group>"; };
+		DA151E1987250246C5EF7124 /* ZujianStudioTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = ZujianStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC27C4AF8FE46D1D9AB7851 /* ReplayEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayEngine.swift; sourceTree = "<group>"; };
+		DDF673212ADD1DC0EF326AFD /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		DFAFB8429DF2033F37E75EA0 /* ReplayCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayCanvasView.swift; sourceTree = "<group>"; };
+		E507A02160A765FAFB1E4313 /* FinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedView.swift; sourceTree = "<group>"; };
+		EB2AB632E8EDF2DE4C86862A /* SetDetectionEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetDetectionEngineTests.swift; sourceTree = "<group>"; };
+		FF57D0A847CAB69E52C7BBAB /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		20F958F05CC76754B7AAC543 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AF07D8DFF3E42B691AF5CB7A /* DetectionDiagnosticRecorder.swift */,
+				9CFF7E401FF5F8CC530C8E56 /* HapticManager.swift */,
+				BDD116770BF31F72D0204408 /* HistoryStore.swift */,
+				DDF673212ADD1DC0EF326AFD /* MotionManager.swift */,
+				529D531FD2551D8D2A4FBEA3 /* RestTimerManager.swift */,
+				C5D2C20017B21D224D911577 /* SettingsManager.swift */,
+				60FAB105C7DAA0A5822CE303 /* WorkoutCoordinator.swift */,
+				3D17BCB90F4CEA068AA8E105 /* WorkoutSessionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		26FDF36EF00CECBB97AB22B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8E4385A02A9BD32EAF61047 /* WorkoutModels.swift */,
+				70E6A613A4D59294825C7706 /* ZujianWidgetSnapshot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2C58FB5B5C264328712669ED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6D2282DBF7E238C29C885049 /* ZujianStudioApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		355834873BA5251C7EFF5C57 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				C59A096783D8D766414F233A /* AppRecordingController.swift */,
+				9343CC713487A831B0AFACFD /* NativeReplayController.swift */,
+				A7E983CDB9F69DAD5A21B527 /* RecordingViewSupport.swift */,
+				9F59DF00DAC9963E24BB0207 /* WatchRecordingTransfer.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		399A6574F939AEE8D7025A3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9392D26072FC75C08CB39661 /* WidgetAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		405CD6BA2AE02E299DA956C4 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				65AB0BA990144DC3BE445D3F /* RecordingModels.swift */,
+				DBC27C4AF8FE46D1D9AB7851 /* ReplayEngine.swift */,
+			);
+			path = Recording;
+			sourceTree = "<group>";
+		};
+		4D461FD9C373908B16EF3FB3 /* ZujianStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				386120005EEA6AD83D2896C6 /* ReplayEngineTests.swift */,
+			);
+			path = ZujianStudioTests;
+			sourceTree = "<group>";
+		};
+		56A4959AB14A1003A4953061 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				1F659080969D4CF82FCD86E5 /* record001_anonymized_motion.json */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
+		5A0A5D636255156EF937025F /* ZujianTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69768C43D2B37E6A1AF58D0 /* HeartRateTrendScorerTests.swift */,
+				EB2AB632E8EDF2DE4C86862A /* SetDetectionEngineTests.swift */,
+				8141B0EBBE6C0114959C8991 /* WorkoutStateTests.swift */,
+				56A4959AB14A1003A4953061 /* Fixtures */,
+			);
+			path = ZujianTests;
+			sourceTree = "<group>";
+		};
+		6177A994A0CAB8923D967A36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1390C57625C49F5BCBF8B84C /* RecordingLibrary.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9312211414D8E7F1D820709D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				39B931D4E91916FEF8148F8C /* StudioRootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94F4F06E632C673DB5AA03A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F7D05D5A78613F744F9554F /* Zujian.app */,
+				C8680AD583A3C05DA0955082 /* ZujianDistribution.app */,
+				6787CFC9C887476410214A5F /* ZujianStudio.app */,
+				DA151E1987250246C5EF7124 /* ZujianStudioTests.xctest */,
+				97D339E55EAA71788DF779F6 /* ZujianTests.xctest */,
+				CD6696DEBF383F32A6AAFC36 /* ZujianUITests.xctest */,
+				881ACAD6AFCDACBA8BF6E6B8 /* ZujianWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A7857B91D02605497C7336 /* Zujian */ = {
+			isa = PBXGroup;
+			children = (
+				EA9667077401A151C1572794 /* App */,
+				A27560453ACF3876927BD70C /* Detection */,
+				20F958F05CC76754B7AAC543 /* Managers */,
+				26FDF36EF00CECBB97AB22B4 /* Models */,
+				355834873BA5251C7EFF5C57 /* Recording */,
+				AC8CF618AC99A040E086D077 /* Resources */,
+				B8D1CF331E17D7B38A9C5F80 /* Views */,
+			);
+			path = Zujian;
+			sourceTree = "<group>";
+		};
+		A27560453ACF3876927BD70C /* Detection */ = {
+			isa = PBXGroup;
+			children = (
+				CC127052E551ED2F60D86356 /* HeartRateTrendScorer.swift */,
+				C846201C57C3BC9858C16AF9 /* SetDetectionEngine.swift */,
+			);
+			path = Detection;
+			sourceTree = "<group>";
+		};
+		A43875E624BC95B1ED263477 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				DFAFB8429DF2033F37E75EA0 /* ReplayCanvasView.swift */,
+				608DCC4AEE636257C31144AB /* ReplayVideoRenderer.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		AC8CF618AC99A040E086D077 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87590CB5FF880484B959B622 /* Assets.xcassets */,
+				A097490919DC250D2D6C9A34 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B8D1CF331E17D7B38A9C5F80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E507A02160A765FAFB1E4313 /* FinishedView.swift */,
+				FF57D0A847CAB69E52C7BBAB /* HistoryView.swift */,
+				B9AE856CE07B8802DFDE32E1 /* NativeReplayRootView.swift */,
+				BEC57A33385D96F2C8F6F5E7 /* ReadyView.swift */,
+				C3BB59F1898E61CD83688893 /* RootView.swift */,
+				4E72FEA9FD0F930EDCE2C38A /* SettingsView.swift */,
+				68B9EE32E37F7839CDF45337 /* WorkoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3BC7FCC17D0D872B4A7119E /* ZujianStudio */ = {
+			isa = PBXGroup;
+			children = (
+				2C58FB5B5C264328712669ED /* App */,
+				6177A994A0CAB8923D967A36 /* Models */,
+				A43875E624BC95B1ED263477 /* Rendering */,
+				9312211414D8E7F1D820709D /* Views */,
+			);
+			path = ZujianStudio;
+			sourceTree = "<group>";
+		};
+		C93E9ABF063B1E3F7D7CC35F /* ZujianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7890FE5B6E4CB8580D2DBD3F /* WorkoutStartUITests.swift */,
+			);
+			path = ZujianUITests;
+			sourceTree = "<group>";
+		};
+		CA82884E798BBF2C532BC610 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				405CD6BA2AE02E299DA956C4 /* Recording */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D223D717B9C37174E60DFFEE = {
+			isa = PBXGroup;
+			children = (
+				CA82884E798BBF2C532BC610 /* Shared */,
+				A0A7857B91D02605497C7336 /* Zujian */,
+				C3BC7FCC17D0D872B4A7119E /* ZujianStudio */,
+				4D461FD9C373908B16EF3FB3 /* ZujianStudioTests */,
+				5A0A5D636255156EF937025F /* ZujianTests */,
+				C93E9ABF063B1E3F7D7CC35F /* ZujianUITests */,
+				E7B8F30B9CFB9F50A1BCBED2 /* ZujianWidgets */,
+				94F4F06E632C673DB5AA03A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7B8F30B9CFB9F50A1BCBED2 /* ZujianWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				1F827AFFF442CB3EB8DE3A0D /* ZujianWidgets.swift */,
+				399A6574F939AEE8D7025A3A /* Resources */,
+			);
+			path = ZujianWidgets;
+			sourceTree = "<group>";
+		};
+		EA9667077401A151C1572794 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2ED444705FEDA4E67622C18C /* ZujianApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CB63B78BAECEABE5FC06E79 /* ZujianStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA1C575050794C26FE6871B /* Build configuration list for PBXNativeTarget "ZujianStudio" */;
+			buildPhases = (
+				3FF0A147557B343F34E01D3B /* Block Studio Archive */,
+				1359F854DB451F96246EA492 /* Sources */,
+				393E5D48793164A7A914908C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZujianStudio;
+			packageProductDependencies = (
+			);
+			productName = ZujianStudio;
+			productReference = 6787CFC9C887476410214A5F /* ZujianStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176E1B73BC439DE9D4CD2084 /* ZujianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D530FCE71F36ABC5858E41A /* Build configuration list for PBXNativeTarget "ZujianUITests" */;
+			buildPhases = (
+				1485201715C958845A7B4D98 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2B7D3FC1DF214F0A36F7D0 /* PBXTargetDependency */,
+			);
+			name = ZujianUITests;
+			packageProductDependencies = (
+			);
+			productName = ZujianUITests;
+			productReference = CD6696DEBF383F32A6AAFC36 /* ZujianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B8B34A26816E4DEEC5880642 /* ZujianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33FEF9F0ED603B89FD5BFC3C /* Build configuration list for PBXNativeTarget "ZujianTests" */;
+			buildPhases = (
+				C4DFA22DFDBBDB62A75E5014 /* Sources */,
+				D6AE5A84C6E4076A9217E15B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BAE581624BFA447AC8D3D92 /* PBXTargetDependency */,
+			);
+			name = ZujianTests;
+			packageProductDependencies = (
+			);
+			productName = ZujianTests;
+			productReference = 97D339E55EAA71788DF779F6 /* ZujianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBCDC74AA39E4C1AEE7E62BA /* ZujianWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CB84582EFFED814F1C295D /* Build configuration list for PBXNativeTarget "ZujianWidgets" */;
+			buildPhases = (
+				434F8919D549E5CBBEB7834A /* Sources */,
+				29043F91D9F7C48C7FE4C845 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZujianWidgets;
+			packageProductDependencies = (
+			);
+			productName = ZujianWidgets;
+			productReference = 881ACAD6AFCDACBA8BF6E6B8 /* ZujianWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CD31F99B3A711EC3AEAB1CD6 /* Zujian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A4FD054B2EB24AF50233A6B /* Build configuration list for PBXNativeTarget "Zujian" */;
+			buildPhases = (
+				A1E18395344B76556E075EB3 /* Block FreshAuth Archive */,
+				34A6715F9B2C4A6338B390BC /* Sources */,
+				B0D82A387CCD3C6666BA1AE8 /* Resources */,
+				AD36385BC2963660E23763AA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6505DE279DDFC6D0FEB6315 /* PBXTargetDependency */,
+			);
+			name = Zujian;
+			packageProductDependencies = (
+			);
+			productName = Zujian;
+			productReference = 7F7D05D5A78613F744F9554F /* Zujian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3FD8343C8ECDBD3E2467424 /* ZujianDistribution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12FAC1E7BDF19C30697AC926 /* Build configuration list for PBXNativeTarget "ZujianDistribution" */;
+			buildPhases = (
+				297355AEABDBEF45A99E4CC6 /* Sources */,
+				818CA6DC5D679FB4FD72584E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A99CA4B68068C8F39D07B61 /* PBXTargetDependency */,
+			);
+			name = ZujianDistribution;
+			packageProductDependencies = (
+			);
+			productName = ZujianDistribution;
+			productReference = C8680AD583A3C05DA0955082 /* ZujianDistribution.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		F17DC59E98DDA6520D5207A2 /* ZujianStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D80E03585DE740DFB3B11060 /* Build configuration list for PBXNativeTarget "ZujianStudioTests" */;
+			buildPhases = (
+				F20AA15935C3B620CE46BB4B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FF898E0DCFA81B5C89B9AC /* PBXTargetDependency */,
+			);
+			name = ZujianStudioTests;
+			packageProductDependencies = (
+			);
+			productName = ZujianStudioTests;
+			productReference = DA151E1987250246C5EF7124 /* ZujianStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31FEFC508B54F2115A6B5000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0CB63B78BAECEABE5FC06E79 = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+					};
+					176E1B73BC439DE9D4CD2084 = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD31F99B3A711EC3AEAB1CD6;
+					};
+					B8B34A26816E4DEEC5880642 = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+					};
+					CBCDC74AA39E4C1AEE7E62BA = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups = {
+								enabled = 1;
+							};
+						};
+					};
+					CD31F99B3A711EC3AEAB1CD6 = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					D3FD8343C8ECDBD3E2467424 = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+					};
+					F17DC59E98DDA6520D5207A2 = {
+						DevelopmentTeam = V7439G9SY8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D5166C744EF76A5C0DC60D5B /* Build configuration list for PBXProject "Zujian" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = D223D717B9C37174E60DFFEE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD31F99B3A711EC3AEAB1CD6 /* Zujian */,
+				D3FD8343C8ECDBD3E2467424 /* ZujianDistribution */,
+				0CB63B78BAECEABE5FC06E79 /* ZujianStudio */,
+				F17DC59E98DDA6520D5207A2 /* ZujianStudioTests */,
+				B8B34A26816E4DEEC5880642 /* ZujianTests */,
+				176E1B73BC439DE9D4CD2084 /* ZujianUITests */,
+				CBCDC74AA39E4C1AEE7E62BA /* ZujianWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29043F91D9F7C48C7FE4C845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67CEE3FC7BCF675D573AAB9 /* WidgetAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393E5D48793164A7A914908C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809FCE9D7A3D1A1C47323C7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0D82A387CCD3C6666BA1AE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118367C80A9A7C6A3F45725E /* Assets.xcassets in Resources */,
+				1ECB6CB2917AEDD8E1A9888D /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE5A84C6E4076A9217E15B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19EB799F0F3F83CFC6B0DDD6 /* record001_anonymized_motion.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FF0A147557B343F34E01D3B /* Block Studio Archive */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Block Studio Archive";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$ACTION\" = \"install\" ]; then\n  echo \"error: ZujianStudio is a development-only recording tool and cannot be archived.\"\n  exit 1\nfi\n";
+		};
+		A1E18395344B76556E075EB3 /* Block FreshAuth Archive */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Block FreshAuth Archive";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "case \"$CONFIGURATION\" in\n  FreshAuth*)\n    if [ \"$ACTION\" = \"install\" ]; then\n      echo \"error: Zujian FreshAuth is development-only and cannot be archived.\"\n      exit 1\n    fi\n    ;;\nesac\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1359F854DB451F96246EA492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489938A235813BB7EC384F60 /* RecordingLibrary.swift in Sources */,
+				6BC65BD7DF088BBE4536ECCB /* RecordingModels.swift in Sources */,
+				5E9C8817A21C8C593971E97A /* ReplayCanvasView.swift in Sources */,
+				9715E608403479A2AFC7B736 /* ReplayEngine.swift in Sources */,
+				48771EAE22A519AA56A3670F /* ReplayVideoRenderer.swift in Sources */,
+				3AEF445B52C8C399FDDB7E3E /* StudioRootView.swift in Sources */,
+				834E5E429DCF2206ED25A83A /* ZujianStudioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1485201715C958845A7B4D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64DC322BF17967A92B27D236 /* WorkoutStartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297355AEABDBEF45A99E4CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A6715F9B2C4A6338B390BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1FE0D3B6C388C33F8D2035 /* AppRecordingController.swift in Sources */,
+				54D9EF928D74EAEA780432EB /* DetectionDiagnosticRecorder.swift in Sources */,
+				A067F35DC1DC07F86F338852 /* FinishedView.swift in Sources */,
+				DDD74EF5795BACCE402F8515 /* HapticManager.swift in Sources */,
+				9D88D71E68789AAFCBF86722 /* HeartRateTrendScorer.swift in Sources */,
+				3E1B9E0D087561FBCA0666E6 /* HistoryStore.swift in Sources */,
+				28EBA7B990C829613F979089 /* HistoryView.swift in Sources */,
+				5B108CE49984CDE5420E691F /* MotionManager.swift in Sources */,
+				C04D82097F45F4D3AE57F103 /* NativeReplayController.swift in Sources */,
+				1814CB9A306BEDBDA8B3411E /* NativeReplayRootView.swift in Sources */,
+				ADC0FF6D4CD9473871B32EEB /* ReadyView.swift in Sources */,
+				5A2AC215BF5108126DB9F5E6 /* RecordingModels.swift in Sources */,
+				CAE5C962971C2F0CA7E0FC44 /* RecordingViewSupport.swift in Sources */,
+				20A41964870973729473D6FB /* ReplayEngine.swift in Sources */,
+				9026E6AAEB6C7551BD3C190B /* RestTimerManager.swift in Sources */,
+				8262B652F984C50BBECE2B0D /* RootView.swift in Sources */,
+				25529317A4010730A86981D9 /* SetDetectionEngine.swift in Sources */,
+				E17DFD30FD0ED9AA14FE81A9 /* SettingsManager.swift in Sources */,
+				B7BCD4D442279908FBF0CA81 /* SettingsView.swift in Sources */,
+				1DDD2373BA920F573E142341 /* WatchRecordingTransfer.swift in Sources */,
+				D2114D24070007B891124CC4 /* WorkoutCoordinator.swift in Sources */,
+				82E00FD8B03E163C44CF4743 /* WorkoutModels.swift in Sources */,
+				7C84E291616EC894E189618C /* WorkoutSessionManager.swift in Sources */,
+				21C18772DF9A17D95CE25E53 /* WorkoutView.swift in Sources */,
+				3DC5B2AEDEFE3425F819C1C8 /* ZujianApp.swift in Sources */,
+				E7D2D63B0880F218BA3BA015 /* ZujianWidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434F8919D549E5CBBEB7834A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA46AA50046B5FC1EA1376 /* ZujianWidgetSnapshot.swift in Sources */,
+				8025D0EA108180990C252939 /* ZujianWidgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DFA22DFDBBDB62A75E5014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D2C26643139FEB505305BD /* HeartRateTrendScorerTests.swift in Sources */,
+				3692590CC04257BD53243482 /* SetDetectionEngineTests.swift in Sources */,
+				41941DAEF3D318EEF78DC105 /* WorkoutStateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F20AA15935C3B620CE46BB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02705F1E30356B85062C151 /* ReplayEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BAE581624BFA447AC8D3D92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD31F99B3A711EC3AEAB1CD6 /* Zujian */;
+			targetProxy = 1F29925D61933BC30F684F99 /* PBXContainerItemProxy */;
+		};
+		5A99CA4B68068C8F39D07B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD31F99B3A711EC3AEAB1CD6 /* Zujian */;
+			targetProxy = FA841577B3589324DFA549F9 /* PBXContainerItemProxy */;
+		};
+		8B2B7D3FC1DF214F0A36F7D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD31F99B3A711EC3AEAB1CD6 /* Zujian */;
+			targetProxy = D07AC8102B6672F1FC2F7DAA /* PBXContainerItemProxy */;
+		};
+		E9FF898E0DCFA81B5C89B9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CB63B78BAECEABE5FC06E79 /* ZujianStudio */;
+			targetProxy = 88893DFBB51C99356ED2BD20 /* PBXContainerItemProxy */;
+		};
+		F6505DE279DDFC6D0FEB6315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBCDC74AA39E4C1AEE7E62BA /* ZujianWidgets */;
+			targetProxy = 8E7C041A3A51153C2862F918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023749D05BF853EBFFEBBF02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = "组间";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zujian/Resources/Zujian.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Zujian/Resources/Info-Release.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_WKApplication = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.watchapp;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCH_COMPANION_BUNDLE_IDENTIFIER = com.linfanbin.zujian;
+			};
+			name = Release;
+		};
+		0F8AB6DC483F287EC316DD99 /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.studio.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZujianStudio.app/ZujianStudio";
+			};
+			name = FreshAuth;
+		};
+		0FDA72BCE03BCF8B80FC2B91 /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				INFOPLIST_FILE = ZujianDistribution/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831b;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = FreshAuth;
+		};
+		12A5FEA1D6C0EAAD94206292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zujian.app/Zujian";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		14CCF4D2E38FC0137327E46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZujianWidgets/ZujianWidgets.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZujianWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.watchapp.widgets;
+				PRODUCT_NAME = ZujianWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		1DA273E05CED9982A8A1E69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.studio.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZujianStudio.app/ZujianStudio";
+			};
+			name = Debug;
+		};
+		34B4E97E4E8C39A2750A9048 /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZujianWidgets/ZujianWidgets.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZujianWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831c.watchapp.widget;
+				PRODUCT_NAME = ZujianWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth4;
+		};
+		3B03ACCDF230217F30AD5F3C /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zujian.app/Zujian";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth;
+		};
+		3ED0D658542499CA627E37CE /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.uitests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Zujian;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth;
+		};
+		3FE942ED17902B62CC9BFB26 /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.studio.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZujianStudio.app/ZujianStudio";
+			};
+			name = FreshAuth4;
+		};
+		50043D31E2BB9FCF9583715F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		50271BACB7829E892EBCDD88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.uitests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Zujian;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		52E4B33831FAB4B1257090C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zujian.app/Zujian";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		60534602919B72F5BC9BF960 /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = "组间·权限测试4";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zujian/Resources/Zujian.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zujian/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_WKApplication = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831c.watchapp;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCH_COMPANION_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831c;
+			};
+			name = FreshAuth4;
+		};
+		69B4A66D8C20D51118D85B0C /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth4;
+		};
+		6BD113602E759646E0A4B850 /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.tests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zujian.app/Zujian";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth4;
+		};
+		6F5501523A99A3D3A7AF482D /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZujianStudio/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间素材台";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831b;
+				PRODUCT_NAME = ZujianStudio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = FreshAuth;
+		};
+		7F9F9FDC0E7785DB521602DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZujianStudio/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间素材台";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian;
+				PRODUCT_NAME = ZujianStudio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81D35FB7CEE1C0C19CD4A51F /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = "组间·权限测试3";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zujian/Resources/Zujian.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zujian/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_WKApplication = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831b.watchapp;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCH_COMPANION_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831b;
+			};
+			name = FreshAuth;
+		};
+		8BB9B193CA4E407FF728435C /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.uitests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Zujian;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth4;
+		};
+		8FFD4194C1F0F24022EF3FA5 /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZujianWidgets/ZujianWidgets.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZujianWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831b.watchapp.widget;
+				PRODUCT_NAME = ZujianWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth;
+		};
+		9B0D6AA09994CC5633258D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APP_DISPLAY_NAME = "组间";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Zujian/Resources/Zujian.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zujian/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_DISPLAY_NAME)";
+				INFOPLIST_KEY_WKApplication = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.watchapp;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+				WATCH_COMPANION_BUNDLE_IDENTIFIER = com.linfanbin.zujian;
+			};
+			name = Debug;
+		};
+		A3F0BC06F6A7CA402346F506 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.uitests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = Zujian;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		AC71F5F1BEB8ADC011733A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZujianStudio/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间素材台";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian;
+				PRODUCT_NAME = ZujianStudio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2B7F3CCB6CB8CEA96F7A850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				INFOPLIST_FILE = ZujianDistribution/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		BDF43C33F543E8F6568B6DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.studio.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZujianStudio.app/ZujianStudio";
+			};
+			name = Release;
+		};
+		C9AA40A2F59FD2BCA4A57291 /* FreshAuth */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = FreshAuth;
+		};
+		D80B593A03DC65E3DBA975AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZujianWidgets/ZujianWidgets.entitlements;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ZujianWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.watchapp.widgets;
+				PRODUCT_NAME = ZujianWidgets;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		DCF64A1ED29BD6BF5BA2C833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				INFOPLIST_FILE = ZujianDistribution/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E70C7E03E87C12BDF81AB138 /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ZujianStudio/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间素材台";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831c;
+				PRODUCT_NAME = ZujianStudio;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = FreshAuth4;
+		};
+		F21E95527CAA75EE0735B700 /* FreshAuth4 */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				INFOPLIST_FILE = ZujianDistribution/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "组间";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linfanbin.zujian.permissiontest0831c;
+				PRODUCT_NAME = Zujian;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = FreshAuth4;
+		};
+		FBF00F0B3397AD65E0DBD601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V7439G9SY8;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CB84582EFFED814F1C295D /* Build configuration list for PBXNativeTarget "ZujianWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80B593A03DC65E3DBA975AC /* Debug */,
+				8FFD4194C1F0F24022EF3FA5 /* FreshAuth */,
+				34B4E97E4E8C39A2750A9048 /* FreshAuth4 */,
+				14CCF4D2E38FC0137327E46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		12FAC1E7BDF19C30697AC926 /* Build configuration list for PBXNativeTarget "ZujianDistribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B7F3CCB6CB8CEA96F7A850 /* Debug */,
+				0FDA72BCE03BCF8B80FC2B91 /* FreshAuth */,
+				F21E95527CAA75EE0735B700 /* FreshAuth4 */,
+				DCF64A1ED29BD6BF5BA2C833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33FEF9F0ED603B89FD5BFC3C /* Build configuration list for PBXNativeTarget "ZujianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A5FEA1D6C0EAAD94206292 /* Debug */,
+				3B03ACCDF230217F30AD5F3C /* FreshAuth */,
+				6BD113602E759646E0A4B850 /* FreshAuth4 */,
+				52E4B33831FAB4B1257090C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D530FCE71F36ABC5858E41A /* Build configuration list for PBXNativeTarget "ZujianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F0BC06F6A7CA402346F506 /* Debug */,
+				3ED0D658542499CA627E37CE /* FreshAuth */,
+				8BB9B193CA4E407FF728435C /* FreshAuth4 */,
+				50271BACB7829E892EBCDD88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7AA1C575050794C26FE6871B /* Build configuration list for PBXNativeTarget "ZujianStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC71F5F1BEB8ADC011733A51 /* Debug */,
+				6F5501523A99A3D3A7AF482D /* FreshAuth */,
+				E70C7E03E87C12BDF81AB138 /* FreshAuth4 */,
+				7F9F9FDC0E7785DB521602DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8A4FD054B2EB24AF50233A6B /* Build configuration list for PBXNativeTarget "Zujian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0D6AA09994CC5633258D2E /* Debug */,
+				81D35FB7CEE1C0C19CD4A51F /* FreshAuth */,
+				60534602919B72F5BC9BF960 /* FreshAuth4 */,
+				023749D05BF853EBFFEBBF02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D5166C744EF76A5C0DC60D5B /* Build configuration list for PBXProject "Zujian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF00F0B3397AD65E0DBD601 /* Debug */,
+				C9AA40A2F59FD2BCA4A57291 /* FreshAuth */,
+				69B4A66D8C20D51118D85B0C /* FreshAuth4 */,
+				50043D31E2BB9FCF9583715F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D80E03585DE740DFB3B11060 /* Build configuration list for PBXNativeTarget "ZujianStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA273E05CED9982A8A1E69C /* Debug */,
+				0F8AB6DC483F287EC316DD99 /* FreshAuth */,
+				3FE942ED17902B62CC9BFB26 /* FreshAuth4 */,
+				BDF43C33F543E8F6568B6DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31FEFC508B54F2115A6B5000 /* Project object */;
+}
